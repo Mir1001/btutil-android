@@ -88,6 +88,7 @@ public class BTConnectThreadAsClient extends Thread {
         Message msg = handler.obtainMessage(
                 MESSAGE_BT_SOCKET, mmSocket);
         msg.sendToTarget(); //send object
+        thread.start(); //AUTO start
     }
 
     // Closes the client socket and causes the thread to finish.
