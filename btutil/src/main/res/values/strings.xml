@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bt_title">Available devices</string>
+    <string name="bt_discovering">Scanning</string>
+    <string name="bt_available_devices">Select paired device</string>
+    <string name="bt_device_status_none">None</string>
+    <string name="bt_device_status_pairing">Pairing</string>
+    <string name="bt_device_status_paired">Paired</string>
+</resources>

@@ -1,0 +1,3 @@
+include ':btutil'
+include ':app'
+rootProject.name = "BTUtilExample"
