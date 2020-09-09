@@ -26,9 +26,9 @@ import com.mir1001.btutil.dialog.BTDevicePickerDialog;
 import static com.mir1001.btutil.BTHandlerMessages.MESSAGE_BT_SEND_DATA;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivityDialog extends AppCompatActivity {
     private static final int REQUEST_ENABLE_BT = 1211;
-    private static final String TAG = MainActivity.class.getName();
+    private static final String TAG = MainActivityDialog.class.getName();
     private TextView tvInfo;
     private BluetoothDevice selectedDevice;
     private BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
